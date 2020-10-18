@@ -1,0 +1,24 @@
+section{
+    height: 100%;
+    display: grid;
+    margin: auto;
+    text-align: center;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: repeat(12,1fr);
+}
+
+header{
+    height:100%;
+    grid-column: span 12;
+}
+
+main{
+    height: 100%;
+    grid-column: span 12;
+}
+
+canvas{
+    border: 2px solid gray;
+    display: block;
+    margin: auto;
+}
